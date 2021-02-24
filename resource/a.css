@@ -1,5 +1,4 @@
-        <style>
-            * {
+              * {
                 box-sizing: border-box;
             }
 
@@ -154,4 +153,3 @@
             input[type=submit]:hover {
                 background-color: #444444;
             }
-        </style>
