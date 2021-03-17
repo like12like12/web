@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>.</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="resource/a.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div style="background-color: #bbb">
+      <div
+        class="header"
+        style="
+          background: linear-gradient(rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.7)),
+            url(resource/Banner.jpg);
+          background-size: 100% 100%;
+        "
+      ></div>
+      <div class="topnav">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="form.html">Form</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="form.html">Form</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div style="margin-left: 25%; height: 68vh">
+        <center style="padding: 100px">
+          <form class="form-horizontal" action="/action_page.php">
+            <div class="form-group">
+              <label class="control-label col-sm-2">ชื่อ-นามสกุล :</label>
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="ชื่อ-นามสกุล"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2">เลขทะเบียน :</label>
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="ชื่อ-นามสกุล"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2">เบอร์ติดต่อ :</label>
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="เบอร์ติดต่อ"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2">ที่อยู่ :</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" placeholder="ที่อยู่" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="clear" class="btn btn-default">Clear</button>
+              </div>
+            </div>
+          </form>
+        </center>
+      </div>
+      <div class="footer">
+        <p>Created by like12like12</p>
+      </div>
+    </div>
+  </body>
+</html>
